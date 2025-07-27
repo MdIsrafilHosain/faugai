@@ -286,6 +286,13 @@ main .wrapper .container .flower .img .flower_img .trusted {
     right: -99px;
 }
 
+.latest{
+    text-align: center;
+    margin-bottom: 120px;
+}
+.latest p{
+    padding: 0 150px;
+}
 
 
 
@@ -330,6 +337,19 @@ main .wrapper .container .flower .img .flower_img .trusted {
         width: 400px;
         margin: 0 auto;
     }
+
+
+    .latest{
+    text-align: center;
+    margin-bottom: 51px;
+
+}
+
+
+.latest p{
+    font-size: 11px;
+    padding: 0 15px;
+}
 
 
 
