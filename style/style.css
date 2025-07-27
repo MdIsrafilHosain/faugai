@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* setup css */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* setup css end */
+
+/* project common css */
+
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.noto {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* Common font size and weight classes */
+
+.regular {
+
+    /* Regular font size */
+    font-weight: 400;
+    /* Regular font weight */
+}
+
+.medium {
+
+    /* Medium font size */
+    font-weight: 500;
+    /* Medium font weight */
+}
+
+
+.bold {
+
+    /* Regular font size */
+    font-weight: 900;
+    /* Bold font weight */
+}
+
+
+
+.color1 {
+    color: #E95A08;
+}
+
+.color2 {
+    color: 000000;
+}
+
+.color3 {
+    color: hsla(0, 0%, 0%, 0.5);
+}
+
+.btn {
+    background-color: #E95A08;
+}
+
+/* project common css end */
+
+header .wrapper {
+    margin: 24.5px 0 114.5px 0;
+}
+
+.wrapper .container nav section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dual-menu {
+    display: flex;
+}
+
+.dual-menu ul {
+    display: flex;
+
+}
+
+.dual-menu ul li {
+    list-style: none;
+    margin-right: 24px;
+
+}
+
+.dual-menu ul li a {
+    color: hsla(0, 0%, 0%, 0.5);
+}
+
+.dual-menu div a {
+    color: hsla(0, 0%, 0%, 0.5);
+}
+
+.dual-menu div a:hover,
+.dual-menu ul li a:hover {
+    font-weight: 700;
+    color: hsl(0, 0%, 0%);
+
+}
+
+
+main .wrapper .container section {
+    display: flex;
+    align-items: center;
+}
+
+main .wrapper .container .overflow {
+    width: 570px;
+}
+
+main .wrapper .container .overflow h1 {
+    font-size: 65px;
+}
+
+
+main .wrapper .container .overflow_img {
+    width: 570px;
+
+}
+
+main .wrapper .container .overflow p {
+    padding: 0 15px 0 0;
+    font-size: 22px;
+
+}
+
+.font65 {
+    font-size: 65px;
+}
+
+.font33 {
+    font-size: 33px;
+}
+
+.font22 {
+    font-size: 22px;
+}
+
+main .wrapper .container .plant_p {
+    text-align: center;
+    margin-top: 129px;
+}
+
+main .wrapper .container .plant_p p {
+    padding: 0 150px 0 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.plant_img {
+    margin-top: 49px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.plant_img .plant-card {
+    width: 270px;
+}
+
+
+
+.plant_img .plant_card section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.plant_img .plant_card section h2 {
+    margin-top: 25px;
+}
+
+.plant_img .plant_card section span {
+    margin-top: 15px;
+}
+
+.plant_img .plant_card section button {
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 19px 0;
+    background: #E95A08;
+    border: none;
+    color: #fff;
+    margin-top: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+main .wrapper .container .flower{
+    margin-top: 200px;
+    display: flex;
+    gap: 60px;
+     align-items: center;
+
+    margin-bottom: 39px;
+
+}
+
+.font50{
+    font-size: 50px;
+}
+
+main .wrapper .container .flower .flower_text{
+        width: 540px;
+
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+main .wrapper .container .flower .flower_text ul li {
+    margin-top: 20px;
+}
+main .wrapper .container .flower .img .flower_img{
+    width: 540px;
+    height: 597px;
+    background: url(../img/flower-store.png) no-repeat center center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+}
+
+main .wrapper .container .flower .img .flower_img .trusted{
+    height: 286px;
+    width: 286px;
+    background: url(../img/trusted-badge.png) no-repeat center center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+      top: -120px;
+    right: -99px;
+}
+
+
+
+
+@media only screen and (min-width: 390px) and (max-width: 850px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper {
+        width: 100%;
+    }
+
+    .container {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .logo img {
+        height: 70px;
+    }
+
+    .dual-menu .menu {
+        opacity: 0;
+    }
+
+    .dual-menu .cart {
+        width: 110px;
+        font-weight: 700;
+    }
+
+    .dual-menu .cart a {
+        color: #000000;
+    }
+
+    main .wrapper .container section {
+        display: grid;
+        place-items: center;
+    }
+
+    main .wrapper .container section .overflow {
+        grid-area: overflow;
+    }
+
+    main .wrapper .container section .overflow_img {
+        grid-area: overflow_img;
+        width: 400px;
+        margin: 0 auto;
+
+    }
+
+    main .wrapper .container section .overflow_img img {
+        width: 100%;
+    }
+
+    main .wrapper .container section .overflow {
+        width: 400px;
+        margin-top: 40px;
+    }
+
+    main .wrapper .container section {
+        display: grid;
+        grid-template-areas:
+            "overflow_img "
+            "overflow"
+        ;
+    }
+
+    main .wrapper .container .overflow h1 {
+        font-size: 33px;
+    }
+
+    main .wrapper .container .overflow p {
+
+        font-size: 15px;
+
+    }
+
+
+    .plant_img {
+    margin-top: 49px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.plant_img .plant_card {
+    width: 200px;
+}
+
+.plant_img .plant_card img{
+    width: 200px;
+}
+
+
+.plant_img .plant_card section button{
+   width: 200px;
+   margin-top: 10px;
+}
+
+
+.plant_img {
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+
+.plant_p h1{
+    font-size: 33px;
+
+
+}
+
+.plant_p p{
+    padding: none;
+    font-size: 33px;
+    font-size: 11px;
+    
+}
+
+main .wrapper .container .plant_p p {
+    padding: 10px 15px 0 15px;
+}
+main .wrapper .container .plant_p {
+    text-align: center;
+    margin-top: 65px;}
+
+
+
+    main .wrapper .container .flower .img .flower_img{
+    width: 400px;
+    height: 597px;
+  
+}
+
+main .wrapper .container .flower .img .flower_img .trusted{
+
+    opacity: 0;
+}
+
+
+main .wrapper .container .flower{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+main .wrapper .container .flower .flower_text{
+        width: 400px;
+
+   
+   
+}
+
+
+.font25{
+    font-size: 25px;
+}
+
+main .wrapper .container .flower{
+    margin-top: 40px;
+}
+main .wrapper .container .flower .flower_text ul li{
+    font-size: 14px;
+}
+
+
+
+
+}
+
+@media (max-width: 575.98px) {
+    /* xs only */
+}
+
+@media (max-width: 767.98px) {
+    /* sm and below */
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 1199.98px) {
+    /* lg and below */
+}
+
+@media (max-width: 1399.98px) {
+    /* xl and below */
+}
