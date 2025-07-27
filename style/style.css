@@ -399,6 +399,62 @@ border-radius: 15px;
 
 
 
+.joinsection {
+    width: 100%;
+    height: 533px;
+    background-image: url(../img/news-letter-bg.png);
+     background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+
+.join_overlay {
+  background: rgba(255, 255, 255, 0.0); /* transparent overlay */
+  padding: 0;
+}
+
+.subscribe-form {
+  display: flex;
+  max-width: 600px;
+  width: 100%;
+  background-color: white;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+
+.subscribe-form input{
+    width: 644px;
+}
+
+.subscribe-form input[type="email"] {
+  flex: 1;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.subscribe-form button {
+  background-color: #ec5b11;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.subscribe-form button:hover {
+  background-color: #d94f0e;
+}
+
+
+
 
 
 
@@ -446,6 +502,14 @@ border-radius: 15px;
 
 }
 
+
+.joinsection {
+    height: 271px;
+}
+
+.subscribe-form input{
+    width: 180px;
+}
 
 .latest p{
     font-size: 11px;
@@ -709,6 +773,8 @@ border-radius: 15px;
     main .wrapper .container .flower .flower_text ul li {
         font-size: 14px;
     }
+
+
 
 
 
