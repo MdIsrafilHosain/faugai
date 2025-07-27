@@ -398,9 +398,6 @@ border-radius: 15px;
 }
 
 
-.latest_img{
-    margin-bottom: 40px;
-}
 
 
 
@@ -534,6 +531,9 @@ border-radius: 15px;
     color: #ffffff;
 }
 
+.latest_img{
+    margin-bottom: 40px;
+}
 
 
 
