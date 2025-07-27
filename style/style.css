@@ -294,9 +294,113 @@ main .wrapper .container .flower .img .flower_img .trusted {
     padding: 0 150px;
 }
 
+.latest_img{
+    display: grid;
+    gap: 28px;
+  grid-template-areas:
+  "img11 img33 img33"
+  "img11 img33 img33"
+  "img22 img33 img33"
+  "img22 img33 img33"
+  ;
+
+  margin-bottom: 120px;
+}
+.latest_img .img11{
+      grid-area: img11;
+    width: 367px;
+    height: 201px;
+    background-image: url(../img/deal-bloom.png);
+    background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+border-radius: 15px;
 
 
+}
 
+.latest_img .img22{
+      grid-area: img22;
+    width: 367px;
+    height: 201px;
+    background-image: url(../img/deal-ana.png);
+    background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+border-radius: 15px;
+
+
+}
+
+.latest_img .img33{
+    grid-area: img33;
+   width: 753px;
+    background-image: url(../img/deal-zabo.png);
+    background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+border-radius: 15px;
+
+
+}
+ 
+
+.latest_img  .over_lay{
+    width: 100%;
+    height: 100%;
+    background: hsla(0, 0%, 0%, 0.5);
+    border-radius: 15px;
+}
+
+
+.latest_img .over_lay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.latest_img .img44:hover .over_lay {
+    opacity: 1;
+
+}
+
+.latest_img .over_lay h4{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 900;
+    
+}
+
+.latest_img .over_lay p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 19px;
+    
+}
+
+.latest_img .zambo .over_lay h4{
+    font-size: 40px;
+    
+}
+.latest_img .zambo .over_lay p{
+    font-size: 28px;
+    
+    
+}
+
+.latest_img .over_lay a{
+    color: #ffffff;
+}
+
+
+.latest_img{
+    margin-bottom: 40px;
+}
 
 
 
@@ -350,6 +454,105 @@ main .wrapper .container .flower .img .flower_img .trusted {
     font-size: 11px;
     padding: 0 15px;
 }
+
+.latest_img{
+    display: grid;
+    gap: 28px;
+   grid-template-areas:
+  "img11 img11 img11"
+  "img22 img22 img22"
+  "img33 img33 img33"
+  "img33 img33 img33"
+  ;
+
+  margin-bottom: 120px;
+}
+
+.latest_img .img33{
+    width: 400px;
+    height: 201px;
+}
+
+.latest_img .img22{
+    width: 400px;
+    height: 201px;
+}
+
+.latest_img .img11{
+    width: 400px;
+    height: 201px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.latest_img  .over_lay{
+    opacity: 1;
+}
+
+
+
+
+
+.latest_img .over_lay h4{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 900;
+    
+}
+
+.latest_img .over_lay p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 19px;
+    
+}
+
+.latest_img .zambo .over_lay h4{
+    font-size: 20px;
+    
+}
+.latest_img .zambo .over_lay p{
+    font-size: 16px;
+    
+    
+}
+.latest_img .over_lay a{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
