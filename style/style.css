@@ -236,63 +236,95 @@ main .wrapper .container .plant_p p {
 
 
 
-main .wrapper .container .flower{
+main .wrapper .container .flower {
     margin-top: 200px;
     display: flex;
     gap: 60px;
-     align-items: center;
+    align-items: center;
 
     margin-bottom: 39px;
 
 }
 
-.font50{
+.font50 {
     font-size: 50px;
 }
 
-main .wrapper .container .flower .flower_text{
-        width: 540px;
+main .wrapper .container .flower .flower_text {
+    width: 540px;
 
     display: flex;
     flex-direction: column;
-   
+
 }
 
 
 main .wrapper .container .flower .flower_text ul li {
     margin-top: 20px;
 }
-main .wrapper .container .flower .img .flower_img{
+
+main .wrapper .container .flower .img .flower_img {
     width: 540px;
     height: 597px;
     background: url(../img/flower-store.png) no-repeat center center;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-  position: relative;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    position: relative;
 
 }
 
-main .wrapper .container .flower .img .flower_img .trusted{
+main .wrapper .container .flower .img .flower_img .trusted {
     height: 286px;
     width: 286px;
     background: url(../img/trusted-badge.png) no-repeat center center;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-      top: -120px;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -120px;
     right: -99px;
 }
+
+
+.latest_area .latest{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 @media only screen and (min-width: 390px) and (max-width: 850px) {
-    *{
+    * {
         padding: 0;
         margin: 0;
     }
+
     .wrapper {
         width: 100%;
     }
@@ -302,12 +334,14 @@ main .wrapper .container .flower .img .flower_img .trusted{
         margin: 0 auto;
     }
 
+
+
     .logo img {
         height: 70px;
     }
 
     .dual-menu .menu {
-        opacity: 0;
+        display: none;
     }
 
     .dual-menu .cart {
@@ -364,94 +398,113 @@ main .wrapper .container .flower .img .flower_img .trusted{
 
 
     .plant_img {
-    margin-top: 49px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 20px;
-    row-gap: 30px;
-}
+        margin-top: 49px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+        row-gap: 30px;
+    }
 
-.plant_img .plant_card {
-    width: 200px;
-}
+    .plant_img .plant_card {
+        width: 200px;
+    }
 
-.plant_img .plant_card img{
-    width: 200px;
-}
-
-
-.plant_img .plant_card section button{
-   width: 200px;
-   margin-top: 10px;
-}
+    .plant_img .plant_card img {
+        width: 200px;
+    }
 
 
-.plant_img {
-    column-gap: 20px;
-    row-gap: 30px;
-}
+    .plant_img .plant_card section button {
+        width: 200px;
+        margin-top: 10px;
+    }
 
 
-.plant_p h1{
-    font-size: 33px;
+    .plant_img {
+        column-gap: 20px;
+        row-gap: 30px;
+    }
 
 
-}
-
-.plant_p p{
-    padding: none;
-    font-size: 33px;
-    font-size: 11px;
-    
-}
-
-main .wrapper .container .plant_p p {
-    padding: 10px 15px 0 15px;
-}
-main .wrapper .container .plant_p {
-    text-align: center;
-    margin-top: 65px;}
+    .plant_p h1 {
+        font-size: 33px;
 
 
+    }
 
-    main .wrapper .container .flower .img .flower_img{
-    width: 400px;
-    height: 597px;
-  
-}
+    .plant_p p {
+        padding: none;
+        font-size: 33px;
+        font-size: 11px;
 
-main .wrapper .container .flower .img .flower_img .trusted{
+    }
 
-    opacity: 0;
-}
+    main .wrapper .container .plant_p p {
+        padding: 10px 15px 0 15px;
+    }
 
-
-main .wrapper .container .flower{
-    margin-top: 200px;
-    display: flex;
-    flex-direction: column;
-    
-}
+    main .wrapper .container .plant_p {
+        text-align: center;
+        margin-top: 65px;
+    }
 
 
-main .wrapper .container .flower .flower_text{
+
+    main .wrapper .container .flower .img .flower_img {
+        width: 400px;
+        height: 597px;
+
+    }
+
+    main .wrapper .container .flower .img .flower_img .trusted {
+
+        display: none;
+    }
+
+
+    main .wrapper .container .flower {
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    main .wrapper .container .flower .flower_text {
         width: 400px;
 
-   
-   
-}
 
 
-.font25{
-    font-size: 25px;
-}
+    }
 
-main .wrapper .container .flower{
-    margin-top: 40px;
-}
-main .wrapper .container .flower .flower_text ul li{
-    font-size: 14px;
-}
+
+    .font25 {
+        font-size: 25px;
+    }
+
+    main .wrapper .container .flower {
+        margin-top: 40px;
+    }
+
+    main .wrapper .container .flower .flower_text ul li {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
